@@ -17,7 +17,7 @@ Use your `.ejs` files as entry files to start bundling using `parcel-bundler`.
 You can pass some local variables to your `.ejs` file by creating a config file named `ejs.config.js` in your directory. File schema should be like following example:
 
 ```js
-module.export = {
+module.exports = {
   locals: {
     foo: "bar",
   },
